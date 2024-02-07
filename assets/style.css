@@ -1,0 +1,403 @@
+.mingle-form--new input[type="url"],
+.mingle-form--new input[type="text"],
+.mingle-form--new input[type="submit"],
+.mingle-form--new select,
+.mingle-form--new textarea {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 12px 18px;
+    border: 1px solid #adb5b8;
+    border-radius: 3px;
+}
+.mingle-form--new input[type="url"],
+.mingle-form--new input[type="text"],
+.mingle-form--new select,
+.mingle-form--new textarea {
+    display: block;
+    width: 100%;
+}
+
+
+
+.container-discussion p {
+    margin: 0 0 16px 0;
+}
+.discussion-meta {
+    margin: 8px 0 0 0;
+    padding: 8px 0 0 0;
+    border-top: 1px solid #cccccc;
+    font-size: 13px;
+    color: #999999;
+}
+.discussion img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.discussion-content h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.discussion-content h3 a {
+    text-decoration: none;
+}
+.discussion-content h3 a:hover {
+    text-decoration: underline;
+}
+
+.discussion-content .discussion-excerpt {
+    font-weight: 300;
+}
+
+
+
+.mingle-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 11px;
+    border-radius: 48px;
+    font-family: monospace;
+
+    color: white;
+    background: black;
+}
+.mingle-badge a {
+    color: white;
+    text-decoration: none;
+}
+.mingle-badge a:hover {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+/*
+.mingle-badge-pinned {
+    color: #ffffff;
+    background: #ff4500;
+}
+.mingle-badge-link {
+    color: #ffffff;
+    background: #ffd635;
+}
+.mingle-badge-discussion {
+    color: #ffffff;
+    background: #46d160;
+}
+.mingle-badge-topic {
+    color: #ffffff;
+    background: #5758BB;
+}
+/**/
+
+
+
+.bypostauthor {
+    background-color: #eeeeee;
+}
+
+/* ## Comments
+--------------------------------------------- */
+.comment-respond,
+.entry-pings,
+.entry-comments {
+    color: #444;
+    padding: 24px 48px 48px 48px;
+    background: #fff;
+    border-left: 4px solid #444;
+}
+.entry-comments h3 {
+    margin-bottom: 30px;
+}
+.comment-respond h3,
+.entry-pings h3 {
+    margin-bottom: 30px;
+}
+.comment-respond {
+    padding-bottom: 5%;
+    margin: 24px 0;
+    border-radius: 3px;
+    /*
+    background-image: url('https://getbutterfly.com/wp-content/themes/wp-whiskey-air/images/comment.svg');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    /**/
+}
+
+.comment-respond input[type="submit"],
+.comment-respond input[type="email"],
+.comment-respond input[type="text"],
+.comment-respond input[type="url"],
+.comment-respond textarea {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 8px;
+}
+.comment-respond textarea {
+    width: 100%;
+}
+.comment-respond input[type="submit"] {
+    border-radius: 48px;
+    background: #000000;
+    color: #D6EF8A;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 32px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    overflow-wrap: break-word;
+}
+.comment-respond input[type="submit"]:hover {
+    background: #D6EF8A;
+    color: #000000;
+}
+
+.comment-header {
+    color: #adaeb3;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.comment-header cite a {
+    border: none;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+}
+.comment-header .comment-meta a {
+    border: none;
+    color: #adaeb3;
+}
+footer.comment-meta {
+    position: relative;
+    font-size: inherit;
+    text-align: left;
+    color: inherit;
+    background: none;
+}
+footer.comment-meta a,
+footer.comment-meta a:hover {
+    color: var(--primarycolor);
+}
+li.comment {
+    background-color: #fff;
+    border-right: none;
+}
+.comment-content {
+    clear: both;
+    overflow: hidden;
+}
+.comment-content pre {
+    background-color: #17191b;
+    white-space: pre-wrap;
+}
+
+.commentlist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.commentlist li {
+    padding: 24px;
+    list-style: none;
+}
+.commentlist .children {
+    margin-top: 40px;
+}
+.commentlist li li {
+    background-color: #f5f5f6;
+}
+.commentlist li li li {
+    background-color: #fff;
+}
+.comment-respond input[type="email"],
+.comment-respond input[type="text"],
+.comment-respond input[type="url"] {
+    width: 50%;
+}
+.comment-respond label {
+    display: block;
+    margin-right: 12px;
+}
+.entry-comments .comment-author {
+    margin-bottom: 0;
+    position: relative;
+}
+.entry-comments .comment-author img {
+    border-radius: 50%;
+    border: 5px solid #fff;
+    left: -80px;
+    top: -5px;
+    position: absolute;
+    width: 60px;
+}
+.entry-pings .reply {
+    display: none;
+}
+.form-allowed-tags {
+    background-color: #f5f5f5;
+    font-size: 16px;
+    padding: 24px;
+}
+.comment-reply-link{
+    cursor: pointer;
+    background-color: #444;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 4px 10px 4px;
+    text-transform: uppercase;
+    width: auto;
+}
+.comment-reply-link:hover{
+    color: #fff;
+}
+.comment-notes{
+    display:none;   
+}
+
+.akismet_comment_form_privacy_notice {
+    font-size: small;
+}
+
+.inbound--stats h2 {
+    font-weight: 400;
+}
+.inbound--stats .inbound--counter {
+    margin: 0;
+    line-height: 1;
+}
+
+
+
+/**
+ * v3
+ */
+.inbound-threads {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.inbound-thread {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+    border-top: 1px solid lightgray;
+    padding: 1em;
+}
+
+        .inbound-threads .inbound-thread:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        .inbound-threads .inbound-thread:nth-child(even) {
+            background-color: #f5fbff;
+        }
+
+.inbound-thread--title {
+    flex-basis: 65%;
+}
+.inbound-thread--comments {
+    flex-basis: 5%;
+}
+.inbound-thread--likes {
+    flex-basis: 5%;
+}
+.inbound-thread--views {
+    flex-basis: 5%;
+}
+.inbound-thread--activity {
+    font-size: 12px;
+    flex-basis: 20%;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+@media only screen and (max-width: 720px) {
+    .inbound-thread--title,
+    .inbound-thread--comments,
+    .inbound-thread--likes,
+    .inbound-thread--views,
+    .inbound-thread--activity {
+        flex-basis: 100%;
+    }
+}
+
+.inbound-thread--comments,
+.inbound-thread--likes,
+.inbound-thread--views {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.inbound-thread--head i {
+    font-size: 18px;
+    color: lightgray;
+}
+
+
+.inbound-thread--title h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.25;
+    margin: 0;
+}
+.inbound-thread--title h3 a {
+    text-decoration: none;
+}
+.inbound-thread--title h3 a:hover {
+    text-decoration: underline;
+}
+
+.inbound-thread--activity .avatar {
+    border-radius: 100%;
+}
+
+
+
+.mingle-button-bar {
+    display: flex;
+    gap: 0.5em;
+    margin: 0.5em 0;
+}
+.mingle-button {
+    font-family: inherit;
+    font-size: 13px;
+    display: inline-block;
+    border-radius: 2px;
+    line-height: 1;
+    cursor: pointer;
+    padding: 6px 12px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: linear-gradient(to top, #f8f8f8, #ffffff);
+    border: 1px solid #c6c6c6;
+    color: #000;
+    text-decoration: none;
+}
+.mingle-button:hover {
+    border: 1px solid #aaaaaa;
+    background: linear-gradient(to bottom, #f8f8f8, #ffffff);
+}
+.mingle-button:active {
+    border: 1px solid #999999;
+    background: linear-gradient(to bottom, #fefefe, #ffffff);
+}
+
+.mingle-button--regular {
+    font-size: 16px;
+    padding: 8px 16px;
+}
